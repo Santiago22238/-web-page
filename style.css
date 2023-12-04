@@ -1,0 +1,146 @@
+body {
+background-color: #ffffff;
+}
+nav{
+  background-color: #333;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 5%;
+  padding-right: 5%;
+  font-weight: bold;
+}
+h1 {
+  color: white;
+  font-size: 45px;
+}
+ul li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+a{
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  color: #20b2aa;
+}
+header {
+background-color: #f2f2f2;
+text-align: center;
+padding: 5px;
+
+}
+.brand img{
+  width: 75px;
+  height: 75px;
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    
+}
+th {
+  background-color: rgb(16, 16, 181);
+    color: white;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+tr:nth-child(even) {
+ background-color: rgba(128, 128, 128, 0.605);
+
+}
+tr:nth-child(odd){
+  background-color: white;
+}
+h2 {
+
+  text-align: center;
+  color:#333;
+  font-size: 30px;
+  font-family: Arial,sans-serif;
+    
+} 
+
+h3 {
+  text-align: center;
+  color: #333;
+  font-size: 30px;
+  font-family: Arial, sans-serif;
+}
+form {
+  text-align: center;
+  color: black;
+  justify-content: center;
+  
+  
+}
+
+button.delete {
+  background-color: #f32f0d;
+  color: white;
+  border: 0;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+
+button.delete:hover {
+  background-color: transparent;
+  color: #FF6347;
+}
+
+button.edit {
+  background-color: #0751c0; /* Cambia el color según tu preferencia */
+  color: white;
+  border: 0;
+  font-size: 15px;
+  font-family: 'Times New Roman', Times, serif;
+  border-radius: 10px;
+}
+
+button.edit:hover {
+  background-color: transparent;
+  color: #0751c0; 
+}
+
+input {
+  background-color: rgb(244, 248, 248);
+  border-radius: 10px;
+}
+.product {
+  display: flex;
+  justify-content: center;
+  
+}
+
+#searcher {
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  font-size: 14px;
+}
+
+#searcher::placeholder {
+  color: #888;
+}
+
+#searcher:focus {
+  outline: none;
+  border-color: #333;
+  box-shadow: 0 0 5px rgba(18, 57, 55, 0.7);
+}
+
+
+
+
