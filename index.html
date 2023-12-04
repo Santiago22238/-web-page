@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventory Web Page</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+    <header>
+        
+        <nav>
+            <label for="" class="brand">
+                <a href=""><img src="S J-logo-white (1).png" alt=""></a>
+            </label>
+            <ul>
+                <li><a href="index1.html">HOME</a></li>
+                <li><a href="index.html">INVENTORY</a></li>
+                <li><a href="sales.html">RESOURCES</a></li>
+                <li><a href="Resources.html">SALES</a></li>
+            </ul>
+        </nav>
+        
+    </header>
+    
+    <style>
+      </style>
+      <div class="product"> 
+        <img src="super.jpeg" alt="Product image" class="image">
+        
+        <form id="productForm">
+            <h2>Add Products</h2>
+            
+            <label for="product">Products:</label>
+            <input type="text" id="product" name="product"><br>
+            <label for= "category">Category:</label>
+            <input type="text" id="category" name="category"><br>
+    
+            <label for="stock">Stock:</label>
+            <input type="number" id="stock" name="stock"><br>
+    
+            <label for="price">Price:</label>
+            <input type="text" id="price" name="price"><br>
+            
+
+            <input type="button" value="Add" id="addButton">
+        </form>
+
+        <img src="super.jpeg" alt="Product image" class="image1">
+      </div>
+    
+
+        <h3>Inventory Table</h3>
+        <table id="inventoryTable">
+
+            <input type="text" name="searcher" id="searcher" placeholder="Search...">
+
+            <tr>
+                <th>Products</th>
+                <th>Category</th>
+                <th>Stock</th>
+                <th>Price</th>
+                <th>Action</th>
+                <th>Update</th>
+            </tr>
+        </table>
+        
+    <script src="script/script.js"></script>
+</body>
+</html>
